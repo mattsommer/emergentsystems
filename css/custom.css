@@ -1,0 +1,349 @@
+
+
+#product-header {
+    height: auto;
+    background: #fff;
+    padding: 100px 0;
+}
+/* .product-content {
+    padding-top: 100px;
+} */
+.product-content h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.product-content h1.usecase  {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.product-content img {
+    width: 100%;
+    height: auto;
+}
+.product-content .search-header {
+    padding-top: 50px;
+    width: 100%;
+}
+.panel {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+.button-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.demo-row {
+    background: #ebebeb;
+    padding: 75px 0;
+}
+.demo-row h1 {
+    padding-bottom: 25px;
+    position: relative;
+}
+.demo-row h1::before {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: #39b54a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.demo-row img {
+    margin-bottom: 15px;
+}
+.demo-row h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta-row {
+    background: #121212;
+    padding: 20px 0 10px 0;
+    margin-top: 10px;
+  }
+
+.cta-row [class*="col-"] {
+    text-align: center;
+}
+.cta-row input {
+    background: #fff;
+    width: 100%;
+}
+.cta-row .row.wrap {
+    text-align: center;
+    margin: auto;
+}
+.cta-row h2 {
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+  
+  #product-features {
+    background: #fff;
+    padding: 0 0;
+  }
+  #product-features img {
+    width: 30%;
+  }
+  #product-features p {
+    font-weight: 500;
+  }
+  #product-features .row {
+    text-align: center;
+  }
+
+  #analysis {
+  margin-bottom: 0px;
+  }
+
+div#analysis.row.about-how {
+    padding-bottom: 1em;
+}
+.left {
+    text-align: left;
+}
+.a-right {
+    text-align: right;
+}
+#video {
+    /* height: 600px; */
+    background: #fff;
+    padding: 50px 0;
+}
+#video .col-ten {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+#video .col-ten h1 {
+    padding: 20px 0;
+}
+#product-header h1 span {
+    color: #FF8D00;
+    display: block;
+    font-size: 26px;
+    font-weight: 500;
+}
+#product-header h1 span b {
+    color: #FF8D00;
+    font-size: 26px;
+    font-weight: 700;
+}
+#product-features {
+    background: #fff;
+    padding: 10px 0 50px 0;
+}
+#product-features p {
+    font-weight: 500;
+}
+#product-features .row {
+    text-align: center;
+}
+#product-features .row:first-child {
+    margin-bottom: 50px;
+}
+#product-features img {
+    width: 30%;
+}
+#testimonial {
+    background: #EBEBEB;
+    padding: 75px 0 50px 0;
+    text-align: center;
+}
+
+#platform {
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+#platform .intro-header {
+    text-align: left;
+}
+@media only screen and (max-width: 1024px) {
+    #platform .intro-header {
+        text-align: center;
+    }
+}
+
+#about-platform {
+    background: #ffffff;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+#try-now {
+    background: #ebebeb;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.left-align {
+    text-align: left !important;
+}
+#testimonial .col-ten {
+    margin: auto;
+    float: none;
+}
+.testimony {
+    font-size: 28px;
+    line-height: 48px;
+    font-style: italic;
+}
+.testimony span {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+    margin: 0 15px;
+}
+.author {
+    font-size: 18px;
+}
+#blog-articles {
+    background: #fff;
+    padding: 75px 0;
+}
+#blog-articles a {
+    color: #121212;
+    font-weight: 700;
+    font-size: 14px;
+}
+#blog-articles a:hover {
+    color: #008287;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#blog-articles h1 {
+    padding-bottom: 25px;
+    position: relative;
+}
+#blog-articles h1::before {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: #39b54a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#blog-articles .article-link {
+    position: relative;
+    height: 100%;
+    display: block;
+}
+#blog-articles .blog-meta {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    background: #008287;
+    color: #fff;
+    display: block;
+}
+#blog-articles .blog-meta p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+#blog-articles h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#blog-articles h2:hover {
+    text-decoration: underline;
+    color: #008287;
+}
+#blog-articles .blog-author {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.resonance-header {
+    margin-top: 100px;
+}
+.mc-subnav {
+    background: #efefef;
+    position: fixed;
+    top: 72px;
+    width: 100%;
+    z-index: 1000;
+}
+ul.subnav-links {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+ul li a {
+    color: black;
+}
+ul li a.active {
+    color: #39b54a;
+}
+.subnav
+@media only screen and (max-width: 1024px) {
+    product-header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .product-content {
+        text-align: center;
+        margin: auto;
+    }
+    .product-content h1 {
+        margin-top: 20px;
+    }
+    .product-content .search-header {
+        padding-top: 0px;
+        width: 40%;
+    }
+    .product-content [class*="col-"] {
+        width: 100%;
+        float: none !important;
+        clear: both !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cta-row .col-eight {
+        width: 100%;
+        text-align: center;
+    }
+    .cta-row h2 {
+        font-size: 14px;
+    }
+    .cta-row .col-four {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    product-header {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #product-features [class*="col-"] {
+        width: 100%;
+        float: none !important;
+        clear: both !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #blog-articles [class*="col-"] {
+        width: 100%;
+        float: none !important;
+        clear: both !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
